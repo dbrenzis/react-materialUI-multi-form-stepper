@@ -1,0 +1,48 @@
+{
+     "stepper":{
+         "stepLabels": ["Allgemeine Informationen", "Benutzerdaten"],
+         "stepTitles": ["Persönliche Informationen", "Benutzerdaten"],
+         "alternativeTitle": "Nicht definierter Schritt"
+     },
+     "multiStepForm":{
+      "firstName": {
+        "name": "firstname",
+        "label": "Vorname",
+        "requiredErrorMsg": "Bitte geben Sie Ihren Vornamen ein"
+      },
+      "lastName": {
+        "name": "lastname",
+        "label": "Nachname",
+        "requiredErrorMsg": "Bitte geben Sie Ihren Nachnamen ein"
+      },
+      "email": {
+        "name": "email",
+        "label": "E-Mail",
+        "requiredErrorMsg": "Bitte geben Sie eine E-Mail an",
+        "invalidErrorMsg": "Geben Sie eine valide E-Mail ein"
+      },
+      "city": {
+        "name": "city",
+        "label": "Stadt*",
+        "requiredErrorMsg": "Bitte wählen Sie eine Stadt aus"
+    },
+    "username": {
+        "name": "username",
+        "label": "Nutzername",
+        "requiredErrorMsg": "Bitte geben Sie einen Nutzernamen ein",
+        "invalidErrorMsg": "Ihr Nutzername muss mindestens 4 Zeichen lang sein)"
+      },
+      "password": {
+        "name": "password",
+        "label": "Passwort",
+        "requiredErrorMsg": "Bitte geben Sie ein Passwort ein",
+        "invalidErrorMsg": "Ihr Passwort muss mindestens aus 8 Zeichen bestehen)"
+      }
+    },
+    "formNavigation":{
+      "backButton": "Zurück",
+      "continueButton": "Weiter",
+      "submitButton": "Abschicken",
+      "toolTipText": "Es müssen alle Felder ausgefüllt sein, bevor sie fortfahren können"
+    }
+}

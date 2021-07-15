@@ -1,0 +1,1 @@
+export const menuItemsCity = ["Hamburg","Berlin","Köln","München"]
